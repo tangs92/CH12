@@ -47,6 +47,9 @@ void getPrint(pNODE root);//打印链表接口
 int getItem(pNODE root, int index);//返回指定节点接口
 int deleteItem(pNODE root, int index);//删除指定节点接口
 void deleteList(pNODE root);//删除整个列表
+pNODE insertNodeS2L(pNODE list, int value);
+pNODE insertNodeL2S(pNODE list, int value);
+
 #ifdef __cplusplus
 }
 #endif

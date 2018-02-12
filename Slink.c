@@ -31,6 +31,7 @@ pNODE initListL2S(void)
 
 //从小到大插入
 
+
 pNODE insertNodeS2L(pNODE list, int value)
 {
     if (list == NULL)
